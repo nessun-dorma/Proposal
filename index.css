@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: "SG";
+    src: url("Assets/Fonts/SG.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #250821;
+    scroll-snap-type: y mandatory;
+}
+
+.main-header {
+    height: 100vh;
+}
+
+.center-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#text {
+    font-size: 200px;
+    color: #fff;
+    text-shadow: 0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 8px #fff,
+    0 0 20px #da347f,
+    0 0 40px #da347f,
+    0 0 45px #da347f,
+    0 0 50px #da347f,
+    0 0 75px #da347f;
+    font-family: "SG", serif;
+}
+
+.main-section {
+    text-align: center;
+}
+
+
+.start-line {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    padding-top: 40px;
+    color: #fff;
+    text-shadow: 0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 8px #fff,
+    0 0 20px #da347f,
+    0 0 40px #da347f,
+    0 0 45px #da347f,
+    0 0 50px #da347f,
+    0 0 75px #da347f;
+    transition: all 1s;
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 8px #fff,
+    0 0 20px #da347f,
+    0 0 40px #da347f,
+    0 0 45px #da347f,
+    0 0 50px #da347f,
+    0 0 75px #da347f;
+
+}
+
+.svg-triangle {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    filter: blur(1.3px);
+}
+
+.svg-triangle polygon {
+    fill: #fff;
+    stroke: #fff;
+    stroke-width: 2;
+}
+
+.reldiv {
+    position: relative;
+}
+
+.svg-triangle:nth-child(2) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: blur(50px);
+    fill: #da347f;
+
+}
+
+.space {
+    width: 100px;
+    height: 40px;
+}
